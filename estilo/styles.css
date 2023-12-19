@@ -1,0 +1,124 @@
+* {
+    font-family:sans-serif;
+    
+}
+
+#main{
+    margin: 50px 200px 0px 200px;
+    
+}
+
+.objeto{
+    display:grid;
+    padding:10px;
+    margin: 10px;
+    border: 2px solid rgb(172, 178, 255);
+    border-radius: 5px;
+    
+}
+
+.objeto h1{
+    font-size:15px;
+    text-align: center;
+    cursor: default;
+    font-weight: bolder;
+    font-style:italic;
+    
+}
+
+.objeto:first-child:hover:after{
+    text-align: center;
+    height:2em;
+    content:"Hola soy David Montes Díaz, mi IPSEN es dmondia679.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(2):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Resido actualmente en Castilleja de la Cuesta.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(3):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Después de hacer el grado medio de informática, me interesó seguir estudiando y aprender sobre programación y lo importante que es.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(4):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Espero aprender de todo un poco, empezando por las bases de la Programación tanto con Java como con el resto de lenguajes, también base de datos y de marcas.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(5):hover:after{
+    text-align: center;
+    height:2em;
+    content:"He creado algunas páginas web básicas, pero todas eran muy básicas, es algo que he practicado de vez en cuando en mucho tiempo pero durante poco tiempo.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(6):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Mis pasatiempos son estudiar algun lenguaje de programación, escuchar música y entretenerme ya sea con amigos a los videojuegos o a pasar el tiempo tranquilamente.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(7):hover:after{
+    text-align: center;
+    height:2em;
+    content:"No, nunca he trabajado en ningún proyecto, a menos que sean personales y simplemente prácticos.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(8):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Puedes ser una respuesta típica, pero espero que de aqui a 5 años, sea mucho mejor en cuanto a programación y ha creado mis proyectos personales de los que esté orgulloso.";
+    font-size:12px;
+  
+}
+
+.objeto:nth-child(9):hover:after{
+    text-align: center;
+    height:2em;
+    content:"Me interesa el mundo de la ingienieria inversa y el lenguaje ensamblador, pero que yo entienda el propio lenguaje, es otra cosa.";
+    font-size:12px;
+  
+}
+
+
+@keyframes color{
+    0%{
+        border:2px solid red;
+    }
+    50%{
+        border:2px solid  yellow;
+    }
+    100%{
+        border:2px solid purple;
+    }
+}
+
+.objeto:hover{
+    border:2px solid rgb(73, 85, 255);
+    animation: color 15s infinite;
+}
+
+h5{
+    text-align: center;
+    font-weight: lighter;
+}
+
+    
